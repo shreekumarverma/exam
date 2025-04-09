@@ -1,0 +1,1099 @@
+{
+  "totalTime": 600, 
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who is known as the father of computers?",
+      "options": [
+        "Charles Babbage",
+        "Alan Turing",
+        "John von Neumann",
+        "Steve Jobs"
+      ],
+      "answer": "Charles Babbage"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is the brain of a computer?",
+      "options": [
+        "RAM",
+        "Hard Drive",
+        "CPU",
+        "Monitor"
+      ],
+      "answer": "CPU"
+    },
+    {
+      "id": 3,
+      "question": "Which part of the computer is used for data storage permanently?",
+      "options": [
+        "RAM",
+        "ROM",
+        "Hard Disk",
+        "Cache"
+      ],
+      "answer": "ROM"
+    },
+    {
+      "id": 4,
+      "question": "What is the full form of CPU?",
+      "options": [
+        "Central Processing Unit",
+        "Computer Processing Unit",
+        "Central Programming Unit",
+        "Core Processing Unit"
+      ],
+      "answer": "Central Processing Unit"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is an input device?",
+      "options": [
+        "Monitor",
+        "Printer",
+        "Keyboard",
+        "Speaker"
+      ],
+      "answer": "Keyboard"
+    },
+    {
+      "id": 6,
+      "question": "What does RAM stand for?",
+      "options": [
+        "Random Access Memory",
+        "Readable Access Memory",
+        "Remote Access Memory",
+        "Rotational Access Memory"
+      ],
+      "answer": "Random Access Memory"
+    },
+    {
+      "id": 7,
+      "question": "Which device is used to output information from the computer?",
+      "options": [
+        "Mouse",
+        "Monitor",
+        "Scanner",
+        "Keyboard"
+      ],
+      "answer": "Monitor"
+    },
+    {
+      "id": 8,
+      "question": "What is the primary function of an operating system?",
+      "options": [
+        "Compiling programs",
+        "Managing hardware and software resources",
+        "Controlling network connections",
+        "Performing calculations"
+      ],
+      "answer": "Managing hardware and software resources"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is an example of system software?",
+      "options": [
+        "MS Word",
+        "Windows OS",
+        "Photoshop",
+        "Chrome Browser"
+      ],
+      "answer": "Windows OS"
+    },
+    {
+      "id": 10,
+      "question": "What does GUI stand for?",
+      "options": [
+        "Graphical User Internet",
+        "Graphical Unit Interface",
+        "Graphical User Interface",
+        "General User Interface"
+      ],
+      "answer": "Graphical User Interface"
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is NOT an output device?",
+      "options": [
+        "Monitor",
+        "Printer",
+        "Scanner",
+        "Speaker"
+      ],
+      "answer": "Scanner"
+    },
+    {
+      "id": 12,
+      "question": "What type of memory is volatile?",
+      "options": [
+        "ROM",
+        "Hard Disk",
+        "RAM",
+        "Flash Memory"
+      ],
+      "answer": "RAM"
+    },
+    {
+      "id": 13,
+      "question": "The first generation of computers used which technology?",
+      "options": [
+        "Vacuum Tubes",
+        "Transistors",
+        "Integrated Circuits",
+        "Microprocessors"
+      ],
+      "answer": "Vacuum Tubes"
+    },
+    {
+      "id": 14,
+      "question": "Which number system do computers use to store data?",
+      "options": [
+        "Decimal",
+        "Octal",
+        "Binary",
+        "Hexadecimal"
+      ],
+      "answer": "Binary"
+    },
+    {
+      "id": 15,
+      "question": "What does HTTP stand for?",
+      "options": [
+        "HyperText Transmission Protocol",
+        "HyperText Transfer Protocol",
+        "High Transfer Text Protocol",
+        "High Transmission Text Protocol"
+      ],
+      "answer": "HyperText Transfer Protocol"
+    },
+    {
+      "id": 16,
+      "question": "What is the full form of URL?",
+      "options": [
+        "Uniform Resource Locator",
+        "Unique Resource Link",
+        "Uniform Retrieval Link",
+        "Universal Research Locator"
+      ],
+      "answer": "Universal Research Locator"
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is an example of an application software?",
+      "options": [
+        "Windows 10",
+        "MS Excel",
+        "Linux",
+        "BIOS"
+      ],
+      "answer": "Windows 10"
+    },
+    {
+      "id": 18,
+      "question": "What does LAN stand for?",
+      "options": [
+        "Local Area Network",
+        "Large Area Network",
+        "Long Area Network",
+        "Logical Access Network"
+      ],
+      "answer": "Local Area Network"
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is NOT a web browser?",
+      "options": [
+        "Google Chrome",
+        "Mozilla Firefox",
+        "Microsoft Word",
+        "Safari"
+      ],
+      "answer": "Microsoft Word"
+    },
+    {
+      "id": 20,
+      "question": "What is the smallest unit of data in a computer?",
+      "options": [
+        "Byte",
+        "Bit",
+        "Kilobyte",
+        "Megabyte"
+      ],
+      "answer": "Bit"
+    },
+    {
+      "id": 21,
+      "question": "What does IP stand for in networking?",
+      "options": [
+        "Internet Protocol",
+        "Internal Process",
+        "Intelligent Packet",
+        "Internet Provider"
+      ],
+      "answer": "Internet Protocol"
+    },
+    {
+      "id": 22,
+      "question": "Which key is used to delete a character from the right of the cursor?",
+      "options": [
+        "Backspace",
+        "Delete",
+        "Shift",
+        "Esc"
+      ],
+      "answer": "Delete"
+    },
+    {
+      "id": 23,
+      "question": "What is the purpose of cache memory?",
+      "options": [
+        "Store permanent files",
+        "Improve processing speed",
+        "Store backup data",
+        "Manage power supply"
+      ],
+      "answer": "Improve processing speed"
+    },
+    {
+      "id": 24,
+      "question": "What is an example of an open-source operating system?",
+      "options": [
+        "Windows 11",
+        "macOS",
+        "Linux",
+        "iOS"
+      ],
+      "answer": "Linux"
+    },
+    {
+      "id": 25,
+      "question": "What is the main function of ALU in a CPU?",
+      "options": [
+        "Store data",
+        "Perform calculations",
+        "Manage memory",
+        "Handle input/output"
+      ],
+      "answer": "Perform calculations"
+    },
+    {
+      "id": 26,
+      "question": "Which is the default file extension for MS Word documents?",
+      "options": [
+        ".txt",
+        ".pdf",
+        ".docx",
+        ".xls"
+      ],
+      "answer": ".docx"
+    },
+    {
+      "id": 27,
+      "question": "What type of software is Microsoft PowerPoint?",
+      "options": [
+        "System Software",
+        "Application Software",
+        "Utility Software",
+        "Database Software"
+      ],
+      "answer": "Application Software"
+    },
+    {
+      "id": 28,
+      "question": "Which type of network covers a large geographical area?",
+      "options": [
+        "LAN",
+        "MAN",
+        "WAN",
+        "PAN"
+      ],
+      "answer": "WAN"
+    },
+    {
+      "id": 29,
+      "question": "What does BIOS stand for?",
+      "options": [
+        "Basic Input Output System",
+        "Binary Integrated Operating System",
+        "Basic Internet Operating System",
+        "Built-in Input Output Software"
+      ],
+      "answer": "Basic Input Output System"
+    },
+    {
+      "id": 30,
+      "question": "What is the primary function of a firewall?",
+      "options": [
+        "Enhance internet speed",
+        "Block viruses",
+        "Provide security against unauthorized access",
+        "Manage power supply"
+      ],
+      "answer": "Provide security against unauthorized access"
+    },
+    {
+      "id": 31,
+      "question": "What is phishing?",
+      "options": [
+        "A type of virus",
+        "A hacking technique to steal personal information",
+        "A software update",
+        "A programming language"
+      ],
+      "answer": "A hacking technique to steal personal information"
+    },
+    {
+      "id": 32,
+      "question": "What is an SSD?",
+      "options": [
+        "Super Software Device",
+        "Solid State Drive",
+        "Secure Storage Disk",
+        "Smart System Device"
+      ],
+      "answer": "Solid State Drive"
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is an example of an optical storage device?",
+      "options": [
+        "Hard Disk",
+        "SSD",
+        "CD/DVD",
+        "Flash Drive"
+      ],
+      "answer": "CD/DVD"
+    },
+    {
+      "id": 34,
+      "question": "Which programming language is primarily used for web development?",
+      "options": [
+        "Python",
+        "C++",
+        "HTML",
+        "Java"
+      ],
+      "answer": "HTML"
+    },
+    {
+      "id": 35,
+      "question": "What is the shortcut key to copy text?",
+      "options": [
+        "Ctrl + P",
+        "Ctrl + X",
+        "Ctrl + C",
+        "Ctrl + V"
+      ],
+      "answer": "Ctrl + C"
+    },
+    {
+      "id": 36,
+      "question": "What is cloud computing?",
+      "options": [
+        "Storing data on a local device",
+        "Using internet-based storage and services",
+        "A type of physical storage",
+        "A programming language"
+      ],
+      "answer": "Using internet-based storage and services"
+    },
+    {
+      "id": 37,
+      "question": "What is the default web search engine in Google Chrome?",
+      "options": [
+        "Yahoo",
+        "Bing",
+        "Google",
+        "DuckDuckGo"
+      ],
+      "answer": "Google"
+    },
+    {
+      "id": 38,
+      "question": "Which of the following is NOT a computer language?",
+      "options": [
+        "Java",
+        "Python",
+        "Google",
+        "C++"
+      ],
+      "answer": "Google"
+    },
+    {
+      "id": 39,
+      "question": "What is the full form of PDF?",
+      "options": [
+        "Portable Document Format",
+        "Printed Document File",
+        "Personal Data File",
+        "Private Document Folder"
+      ],
+      "answer": "Portable Document Format"
+    },
+    {
+      "id": 40,
+      "question": "What is the main function of a compiler?",
+      "options": [
+        "Execute programs",
+        "Convert high-level code to machine code",
+        "Manage hardware",
+        "Store data"
+      ],
+      "answer": "Convert high-level code to machine code"
+    },
+    {
+      "id": 41,
+      "question": "What is an operating system?",
+      "options": [
+        "A collection of hardware components",
+        "A software that manages computer hardware and software resources",
+        "A system used to connect to the internet",
+        "A programming language"
+      ],
+      "answer": "A software that manages computer hardware and software resources"
+    },
+    {
+      "id": 42,
+      "question": "Which of the following is NOT an operating system?",
+      "options": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Google Chrome"
+      ],
+      "answer": "Google Chrome"
+    },
+    {
+      "id": 43,
+      "question": "What is the main function of an operating system?",
+      "options": [
+        "To process user programs",
+        "To provide an interface between user and hardware",
+        "To perform calculations",
+        "To create a network connection"
+      ],
+      "answer": "To provide an interface between user and hardware"
+    },
+    {
+      "id": 44,
+      "question": "Which of the following is an open-source operating system?",
+      "options": [
+        "Windows 10",
+        "macOS",
+        "Linux",
+        "iOS"
+      ],
+      "answer": "Linux"
+    },
+    {
+      "id": 45,
+      "question": "What does GUI stand for?",
+      "options": [
+        "General User Interface",
+        "Graphical User Internet",
+        "Graphical User Interface",
+        "General Unified Interface"
+      ],
+      "answer": "Graphical User Interface"
+    },
+    {
+      "id": 46,
+      "question": "Which of the following operating systems is used on mobile devices?",
+      "options": [
+        "Windows",
+        "Linux",
+        "Android",
+        "MS-DOS"
+      ],
+      "answer": "Android"
+    },
+    {
+      "id": 47,
+      "question": "What type of operating system is MS-DOS?",
+      "options": [
+        "Graphical",
+        "Command-line based",
+        "Multitasking",
+        "Real-time"
+      ],
+      "answer": "Command-line based"
+    },
+    {
+      "id": 48,
+      "question": "What is the core part of an operating system?",
+      "options": [
+        "GUI",
+        "Kernel",
+        "Application Software",
+        "File Manager"
+      ],
+      "answer": "Kernel"
+    },
+    {
+      "id": 49,
+      "question": "Which of the following is NOT a function of an operating system?",
+      "options": [
+        "Memory management",
+        "File management",
+        "User interface",
+        "Writing application software"
+      ],
+      "answer": "Writing application software"
+    },
+    {
+      "id": 50,
+      "question": "Which operating system is developed by Microsoft?",
+      "options": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Android"
+      ],
+      "answer": "Windows"
+    },
+    {
+      "id": 51,
+      "question": "What is the function of a device driver?",
+      "options": [
+        "Provides power to hardware",
+        "Manages file storage",
+        "Allows the operating system to communicate with hardware",
+        "Controls internet access"
+      ],
+      "answer": "Allows the operating system to communicate with hardware"
+    },
+    {
+      "id": 52,
+      "question": "Which operating system was developed by Apple?",
+      "options": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Unix"
+      ],
+      "answer": "macOS"
+    },
+    {
+      "id": 53,
+      "question": "What is multitasking in an operating system?",
+      "options": [
+        "Running multiple operating systems at once",
+        "Running multiple processes simultaneously",
+        "Using multiple users on a single PC",
+        "Using multiple devices in a network"
+      ],
+      "answer": "Running multiple processes simultaneously"
+    },
+    {
+      "id": 54,
+      "question": "Which of the following is NOT a type of operating system?",
+      "options": [
+        "Batch Operating System",
+        "Time-Sharing Operating System",
+        "Cloud Operating System",
+        "Distributed Operating System"
+      ],
+      "answer": "Cloud Operating System"
+    },
+    {
+      "id": 55,
+      "question": "What is the purpose of a file system in an OS?",
+      "options": [
+        "Managing files and directories",
+        "Managing RAM usage",
+        "Managing CPU performance",
+        "Managing the internet connection"
+      ],
+      "answer": "Managing files and directories"
+    },
+    {
+      "id": 56,
+      "question": "What is the function of a process scheduler in an operating system?",
+      "options": [
+        "It manages files",
+        "It handles device drivers",
+        "It allocates CPU time to processes",
+        "It controls hardware power"
+      ],
+      "answer": "It allocates CPU time to processes"
+    },
+    {
+      "id": 57,
+      "question": "What is the full form of BIOS?",
+      "options": [
+        "Basic Input Output System",
+        "Binary Internet Operating System",
+        "Basic Internal Operating System",
+        "Built-in Input Output Software"
+      ],
+      "answer": "Basic Input Output System"
+    },
+    {
+      "id": 58,
+      "question": "Which of the following is an example of a distributed operating system?",
+      "options": [
+        "Windows 7",
+        "Linux Ubuntu",
+        "macOS",
+        "Amoeba"
+      ],
+      "answer": "Amoeba"
+    },
+    {
+      "id": 59,
+      "question": "What is Notepad?",
+      "options": [
+        "A web browser",
+        "A text editor",
+        "A spreadsheet application",
+        "A graphic designing tool"
+      ],
+      "answer": "A text editor"
+    },
+    {
+      "id": 60,
+      "question": "Which file extension is used by default when saving a Notepad file?",
+      "options": [
+        ".doc",
+        ".txt",
+        ".jpg",
+        ".xls"
+      ],
+      "answer": ".txt"
+    },
+    {
+      "id": 61,
+      "question": "Can you format text (bold, italic, underline) in Notepad?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "answer": "No"
+    },
+    {
+      "id": 62,
+      "question": "In Notepad, which shortcut key is used to create a new file?",
+      "options": [
+        "Ctrl + S",
+        "Ctrl + N",
+        "Ctrl + P",
+        "Ctrl + C"
+      ],
+      "answer": "Ctrl + N"
+    },
+    {
+      "id": 63,
+      "question": "Which menu in Notepad allows you to save a file?",
+      "options": [
+        "Edit",
+        "View",
+        "File",
+        "Format"
+      ],
+      "answer": "File"
+    },
+    {
+      "id": 64,
+      "question": "What is the default font of Notepad?",
+      "options": [
+        "Arial",
+        "Times New Roman",
+        "Calibri",
+        "Consolas"
+      ],
+      "answer": "Consolas"
+    },
+    {
+      "id": 65,
+      "question": "How can you search for a word in Notepad?",
+      "options": [
+        "Press Ctrl + F",
+        "Press Ctrl + S",
+        "Press Alt + Tab",
+        "Press Shift + F"
+      ],
+      "answer": "Press Ctrl + F"
+    },
+    {
+      "id": 66,
+      "question": "Which operating system includes Notepad by default?",
+      "options": [
+        "macOS",
+        "Linux",
+        "Windows",
+        "Android"
+      ],
+      "answer": "Windows"
+    },
+    {
+      "id": 67,
+      "question": "Can Notepad open .html files?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes"
+    },
+    {
+      "id": 68,
+      "question": "What does \"Word Wrap\" do in Notepad?",
+      "options": [
+        "Converts text into images",
+        "Changes the text font",
+        "Prevents text from scrolling horizontally",
+        "Prints the document"
+      ],
+      "answer": "Prevents text from scrolling horizontally"
+    },
+    {
+      "id": 69,
+      "question": "What is WordPad?",
+      "options": [
+        "A text editor with basic formatting options",
+        "A spreadsheet software",
+        "A web browser",
+        "A programming tool"
+      ],
+      "answer": "A text editor with basic formatting options"
+    },
+    {
+      "id": 70,
+      "question": "What is the default file format for WordPad?",
+      "options": [
+        ".txt",
+        ".rtf",
+        ".pdf",
+        ".html"
+      ],
+      "answer": ".rtf"
+    },
+    {
+      "id": 71,
+      "question": "Which feature is available in WordPad but not in Notepad?",
+      "options": [
+        "Font formatting (bold, italic, underline)",
+        "HTML editing",
+        "Programming support",
+        "Advanced calculations"
+      ],
+      "answer": "Font formatting (bold, italic, underline)"
+    },
+    {
+      "id": 72,
+      "question": "Which of the following is NOT available in WordPad?",
+      "options": [
+        "Spell check",
+        "Font size adjustment",
+        "Bullets",
+        "Paragraph alignment"
+      ],
+      "answer": "Spell check"
+    },
+    {
+      "id": 73,
+      "question": "Which shortcut key is used to open a new document in WordPad?",
+      "options": [
+        "Ctrl + O",
+        "Ctrl + N",
+        "Ctrl + W",
+        "Ctrl + P"
+      ],
+      "answer": "Ctrl + N"
+    },
+    {
+      "id": 74,
+      "question": "Which tab in WordPad contains font formatting options?",
+      "options": [
+        "Home",
+        "Insert",
+        "View",
+        "Page Layout"
+      ],
+      "answer": "Home"
+    },
+    {
+      "id": 75,
+      "question": "How do you save a file in WordPad?",
+      "options": [
+        "Ctrl + X",
+        "Ctrl + S",
+        "Ctrl + D",
+        "Ctrl + V"
+      ],
+      "answer": "Ctrl + S"
+    },
+    {
+      "id": 76,
+      "question": "Which file types can WordPad save documents as?",
+      "options": [
+        ".docx",
+        ".rtf",
+        ".txt",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "id": 77,
+      "question": "Can you insert images into a WordPad document?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes"
+    },
+    {
+      "id": 78,
+      "question": "How do you change text color in WordPad?",
+      "options": [
+        "Use the File menu",
+        "Use the Font color option in the Home tab",
+        "It is not possible",
+        "Use Ctrl + T"
+      ],
+      "answer": "Use the Font color option in the Home tab"
+    },
+    {
+      "id": 79,
+      "question": "What is MS Paint used for?",
+      "options": [
+        "Writing code",
+        "Editing text files",
+        "Creating and editing images",
+        "Watching videos"
+      ],
+      "answer": "Creating and editing images"
+    },
+    {
+      "id": 80,
+      "question": "What is the default file format of MS Paint?",
+      "options": [
+        ".bmp",
+        ".doc",
+        ".xls",
+        ".pdf"
+      ],
+      "answer": ".bmp"
+    },
+    {
+      "id": 81,
+      "question": "Which tool in MS Paint is used to draw freehand?",
+      "options": [
+        "Text Tool",
+        "Eraser",
+        "Pencil Tool",
+        "Line Tool"
+      ],
+      "answer": "Pencil Tool"
+    },
+    {
+      "id": 82,
+      "question": "Which color appears by default as the foreground color in MS Paint?",
+      "options": [
+        "Blue",
+        "Black",
+        "Red",
+        "White"
+      ],
+      "answer": "Black"
+    },
+    {
+      "id": 83,
+      "question": "How do you select a part of an image in MS Paint?",
+      "options": [
+        "Using the Crop tool",
+        "Using the Selection tool",
+        "Using the Eraser",
+        "Using the Brush"
+      ],
+      "answer": "Using the Selection tool"
+    },
+    {
+      "id": 84,
+      "question": "Which file formats can you save an MS Paint image as?",
+      "options": [
+        ".jpg",
+        ".png",
+        ".bmp",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "id": 85,
+      "question": "What is the shortcut key to open a new file in MS Paint?",
+      "options": [
+        "Ctrl + O",
+        "Ctrl + N",
+        "Ctrl + S",
+        "Ctrl + P"
+      ],
+      "answer": "Ctrl + N"
+    },
+    {
+      "id": 86,
+      "question": "Which tool is used to fill a selected area with color in MS Paint?",
+      "options": [
+        "Pencil Tool",
+        "Paint Bucket (Fill) Tool",
+        "Text Tool",
+        "Magnifier"
+      ],
+      "answer": "Paint Bucket (Fill) Tool"
+    },
+    {
+      "id": 87,
+      "question": "How do you increase the size of the brush in MS Paint?",
+      "options": [
+        "Use the \"+\" key",
+        "Use the \"Size\" option in the toolbar",
+        "Use the Eraser tool",
+        "Use Ctrl + Scroll"
+      ],
+      "answer": "Use the \"Size\" option in the toolbar"
+    },
+    {
+      "id": 88,
+      "question": "What does the eraser tool do in MS Paint?",
+      "options": [
+        "Draws lines",
+        "Removes color and restores the background color",
+        "Creates shapes",
+        "Moves objects"
+      ],
+      "answer": "Removes color and restores the background color"
+    },
+    {
+      "id": 89,
+      "question": "What is the shortcut key to save a file in MS Paint?",
+      "options": [
+        "Ctrl + X",
+        "Ctrl + S",
+        "Ctrl + P",
+        "Ctrl + C"
+      ],
+      "answer": "Ctrl + S"
+    },
+    {
+      "id": 90,
+      "question": "Which tool is used to draw a straight line in MS Paint?",
+      "options": [
+        "Brush Tool",
+        "Line Tool",
+        "Eraser Tool",
+        "Fill Tool"
+      ],
+      "answer": "Line Tool"
+    },
+    {
+      "id": 91,
+      "question": "What is the function of the magnifier tool in MS Paint?",
+      "options": [
+        "To change colors",
+        "To zoom into an image",
+        "To erase text",
+        "To crop an image"
+      ],
+      "answer": "To zoom into an image"
+    },
+    {
+      "id": 92,
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Text Machine Language",
+        "Hyperlink and Text Markup Language",
+        "Hyper Transfer Markup Language"
+      ],
+      "answer": "Hyper Text Markup Language"
+    },
+    {
+      "id": 93,
+      "question": "Which tag is used for the largest heading in HTML?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "answer": "<h1>"
+    },
+    {
+      "id": 94,
+      "question": "Which tag is used to create a hyperlink in HTML?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<hyperlink>"
+      ],
+      "answer": "<a>"
+    },
+    {
+      "id": 95,
+      "question": "Which attribute specifies the destination URL in a hyperlink?",
+      "options": [
+        "href",
+        "src",
+        "link",
+        "url"
+      ],
+      "answer": "href"
+    },
+    {
+      "id": 96,
+      "question": "What is the correct syntax to create an ordered list in HTML?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<list>"
+      ],
+      "answer": "<ol>"
+    },
+    {
+      "id": 97,
+      "question": "Which tag is used to insert an image in HTML?",
+      "options": [
+        "<image>",
+        "<img>",
+        "<pic>",
+        "<src>"
+      ],
+      "answer": "<img>"
+    },
+    {
+      "id": 98,
+      "question": "Which attribute provides an alternative text for an image?",
+      "options": [
+        "title",
+        "alt",
+        "name",
+        "src"
+      ],
+      "answer": "alt"
+    },
+    {
+      "id": 99,
+      "question": "Which HTML tag is used to define a table row?",
+      "options": [
+        "<td>",
+        "<th>",
+        "<tr>",
+        "<table>"
+      ],
+      "answer": "<tr>"
+    },
+    {
+      "id": 100,
+      "question": "Which HTML tag is used to create a drop-down selection?",
+      "options": [
+        "<list>",
+        "<dropdown>",
+        "<select>",
+        "<input>"
+      ],
+      "answer": "<select>"
+    }
+  ]
+}
