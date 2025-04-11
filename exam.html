@@ -199,7 +199,7 @@
     let timeLeft = 600;
 
     //Fetching Data From Json
-    fetch('ccc.json')
+    fetch('exampane.json')
       .then(response => response.json())
       .then(data => {
         if (!data.questions || !Array.isArray(data.questions)) throw new Error("Invalid JSON format");
