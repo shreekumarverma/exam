@@ -116,6 +116,8 @@
     .navbar .nav-link:hover {
       color: #0d6efd;
       font-weight: 500;
+      
+      
     }
 
     body.dark-mode .navbar .nav-link {
@@ -130,7 +132,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg shadow-sm px-3 mb-4" id="mainNavbar">
+  <nav class="navbar navbar-expand-lg shadow-sm px-3 mb-4 " id="mainNavbar">
     <div class="container-fluid">
       <a class="navbar-brand fw-bold fs-4" href="index.html">📝 ExamPane</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
@@ -141,10 +143,10 @@
       <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">🏠 Home</a>
+            <a class="nav-link" href="./index.html">🏠 Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">📖 About</a>
+            <a class="nav-link" href="./about.html">📖 About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">🧪 Exam</a>
@@ -159,6 +161,7 @@
   </nav>
 
   <div class="text-center my-3">
+    <h1 id="ExamTitle">Mock Test</h1>
     <span id="timerDisplay" class="fw-bold fs-4 text-danger">Time Left: 10:00</span>
   </div>
 
@@ -188,24 +191,35 @@
   </div>
 
   <script>
+    let title = "Exam Title";
     let questions = [];
     let currentQuestionIndex = 0;
     let userAnswers = {};
     let timer;
     let timeLeft = 600;
 
-    fetch('exampane.json')
+    //Fetching Data From Json
+    fetch('ccc.json')
       .then(response => response.json())
       .then(data => {
         if (!data.questions || !Array.isArray(data.questions)) throw new Error("Invalid JSON format");
+        title = data.Title;
         questions = data.questions;
         timeLeft = typeof data.totalTime === 'number' ? data.totalTime : 600;
+        renderTitle();
         renderQuestion();
         renderQuestionTabs();
         startTimer();
       })
       .catch(error => alert('Error loading questions: ' + error.message));
 
+    //Display Title of exam
+    function renderTitle() {
+      document.getElementById("ExamTitle").textContent = `${title}`;
+
+    }
+
+    //Timer declaration
     function startTimer() {
       displayTime();
       timer = setInterval(() => {
@@ -219,28 +233,40 @@
       }, 1000);
     }
 
+    //Display Timer
     function displayTime() {
-      const minutes = Math.floor(timeLeft / 60);
+      const hour = Math.floor(timeLeft / 3600);
+      const minutes = Math.floor((timeLeft % 3600) / 60);
       const seconds = timeLeft % 60;
-      document.getElementById("timerDisplay").textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+      document.getElementById("timerDisplay").textContent = `Time Left: ${String(hour).padStart(2, '0')}: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+    }
+
+    function replaceHtml(str) {
+      return str.replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
     }
 
     function renderQuestion() {
       const q = questions[currentQuestionIndex];
       document.getElementById('questionText').textContent = `Q${q.id}: ${q.question}`;
+
       const optionsContainer = document.getElementById('optionsContainer');
       optionsContainer.innerHTML = "";
       q.options.forEach((option, index) => {
         const optionId = `option${index}`;
         const isChecked = userAnswers[q.id] === option ? 'checked' : '';
+        const capoption = replaceHtml(option);
         optionsContainer.innerHTML += `
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="option" id="${optionId}" value="${option}" ${isChecked}>
-            <label class="form-check-label" for="${optionId}">${option}</label>
+            <input class="form-check-input" type="radio" name="option" id="${optionId}" value="${capoption}" ${isChecked}>
+            <label class="form-check-label" for="${capoption}">
+              ${capoption}</label>
           </div>`;
       });
       updateActiveTab();
     }
+
 
     function saveAnswer() {
       const selected = document.querySelector('input[name="option"]:checked');
@@ -301,8 +327,9 @@
     }
 
     function submitQuiz() {
-      if (!confirm("Are you sure you want to submit the quiz?")) return;
-
+      if (timeLeft != 0) {
+        if (!confirm("Are you sure you want to submit the quiz?")) return;
+      }
       saveAnswer();
       clearInterval(timer);
       document.getElementById("submitQuiz").disabled = true;
@@ -317,9 +344,9 @@
         if (isCorrect) score++;
         resultDetails += `
           <div class="${isCorrect ? 'correct' : 'incorrect'}">
-            <strong>Q${q.id}:</strong> ${q.question}<br>
-            <strong>Your Answer:</strong> ${userAns}<br>
-            <strong>Correct Answer:</strong> ${q.answer}
+            <strong>Q${q.id}:</strong> ${replaceHtml(q.question)}<br>
+            <strong>Your Answer:</strong> ${replaceHtml(userAns)}<br>
+            <strong>Correct Answer:</strong> ${replaceHtml(q.answer)}
           </div><br>`;
       });
 
